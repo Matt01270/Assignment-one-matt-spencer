@@ -4,4 +4,137 @@ html { box-sizing: border-box;}
 
 *, *:before, *:after {box-sizing: inherit}
 
-.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;} 
+
+
+/* COLORS */  
+
+/* marine #042259 */ 
+/* Pale rose #F5C8CF */ 
+/* Pale grey #F0F5FF */ 
+/* Light pink #FCDDE2 */ 
+/* Water blue #1D81CC */ 
+html { 
+    font-size: 125%;
+}
+/* header */  
+.wrapper { 
+    max-width: 1275px; 
+    margin: 0 auto;
+} 
+
+.flex { 
+    display: flex; 
+    justify-content: space-between;
+} 
+
+header {   
+    height: 100vh;
+    background-image: url(../assets/header-group-appliances.png), linear-gradient(to bottom right, #F5C8CF, #F0F5FF); 
+    background-repeat: no-repeat; 
+    background-position: bottom right; 
+    position: relative;
+}
+
+h1 { 
+    font-family: 'Emblema One', cursive; 
+    text-transform: uppercase; 
+    color: #1D81CC;  
+    font-size: 5rem; 
+    line-height: 87.3px; 
+    width: 50%; 
+    margin-top: 2em;
+} 
+
+h1 span { 
+    font-family: 'Barlow', sans-serif; 
+    text-transform: none; 
+    color: #042259; 
+    display: block; 
+    margin-top: 10px;
+    font-size: 37.2px; 
+    line-height: 37.9px; 
+    letter-spacing: 0.3px; 
+} 
+
+header li { 
+    display: inline; 
+    padding: 20px; 
+    font-family: 'Catamaran', sans-serif; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    font-size: 0.9rem;
+} 
+
+header li a { 
+    text-decoration: none; 
+    color: #042259;
+}
+
+aside { 
+    display: flex; 
+    flex-direction: column; 
+    position: fixed; 
+    right: 30px; 
+    top: 100px
+} 
+
+aside i { 
+    color: #1D81CC; 
+    padding: 10px;
+}
+/* news appliances */ 
+.news-appliances { 
+    background-color: #FCDDE2; 
+    padding: 100px 0;;
+} 
+
+h2 { 
+    font-family: 'Emblema One', cursive; 
+    text-transform: uppercase; 
+    color: #1D81CC; 
+    margin-top: 0; 
+    text-align: center; 
+    font-size: 2rem;
+} 
+.news-appliances ul { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0;
+} 
+
+ul img { 
+    margin: 50px 0;
+}
+.news-appliances li { 
+    list-style: none;
+} 
+
+.coffee { 
+    display: flex;
+} 
+
+.coffee h2 { 
+    text-align: left; 
+    margin-bottom: 10px;
+}
+
+.text-section { 
+    margin: 0 30px; 
+    font-family: 'Barlow', sans-serif; 
+    line-height: 29px; 
+    font-size: 1rem; 
+    letter-spacing: 0.2px;
+} 
+
+.coffee button { 
+    background-color: #042259; 
+    color: #FCDDE2; 
+    font-family: 'Emblema One', cursive; 
+    text-transform: uppercase; 
+    text-align: center; 
+    font-size: 1rem; 
+    border: none; 
+    padding: 10px 15px;
+
+}
