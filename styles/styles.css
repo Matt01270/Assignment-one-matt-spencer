@@ -29,6 +29,7 @@ body {
 /* header */  
 .wrapper { 
     width: 80%; 
+    max-width: 1200px;
     margin: 0 auto; 
 } 
 
@@ -174,9 +175,9 @@ ul img {
 
 .first-row .text-container { 
     width: 100%; 
-    margin-left: 10%; 
+    margin-left: 15%; 
     padding-right: 5%; 
-    margin-bottom: 10%;
+    margin-bottom: 10%; 
 } 
 
 .text-container h2 {  
@@ -191,7 +192,7 @@ ul img {
 
 .second-row .text-container { 
     width: 100%; 
-    margin-right: 10%; 
+    margin-right: 15%; 
     padding-left: 5%; 
     margin-bottom: 10%;
 } 
